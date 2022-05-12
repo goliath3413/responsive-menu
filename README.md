@@ -1,6 +1,6 @@
 # responsive-menu
 example of a responsive-menu
-
+Geo
 see comments;
 
 - pas de nav.css niet aan, behalve voor kleur, font-size, font-family
