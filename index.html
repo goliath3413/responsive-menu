@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Example</title>
+    <!--NAV CSS niet aanpassen, behalve kleur-->
+    <link rel="stylesheet" href="nav.css">
+    <!-- deze CSS mag je aanpassen zoveel je wil -->
+    <link rel="stylesheet" href="style.css">
+    <!-- deze CSS is voor font-awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <header id="container">
+        <nav>
+            <div id="logo">
+                <!--hier kan je logo plaatsen
+                logo hieronder is een voorbeeld, pas dit aan!
+                -->
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <label for="drop" class="toggle">Menu</label>
+            <input type="checkbox" id="drop" />
+            <ul class="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <!-- om dropdown te maken, doe je zo:  -->
+                    <label for="drop-1" class="toggle">WordPress +</label>
+                    <a href="#">WordPress</a>
+                    <input type="checkbox" id="drop-1" />
+                    <ul>
+                        <li><a href="#">Themes and stuff</a></li>
+                        <li><a href="#">Plugins</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                    </ul>
+
+                </li>
+                <li>
+                    <!-- om dropdown te maken, doe je zo:  -->
+                    <label for="drop-2" class="toggle">Web Design +</label>
+                    <a href="#">Web Design</a>
+                    <input type="checkbox" id="drop-2" />
+                    <ul>
+                        <li>
+                            <a href="#">Resources</a>
+                        </li>
+                        <li>
+                            <a href="#">Links</a>
+                        </li>
+                        <li>
+                            <!-- dan om een 2e niveau te krijgen in je dropdown doe je dit hier -->
+                            <label for="drop-3" class="toggle">Tutorials +</label>
+                            <a href="#">Tutorials</a>
+                            <input type="checkbox" id="drop-3" />
+
+                            <ul>
+                                <li><a href="#">HTML/CSS</a></li>
+                                <li><a href="#">jQuery</a></li>
+                                <li><a href="#">Other</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Graphic Design</a></li>
+                <li><a href="#">Inspiration</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="flex-space-around width-800">
+        <div>
+            <p> A simple dropdown navigation menu made with CSS Only. Dropdowns are marked with a plus sign ( + )</p>
+            <p> Resize the screen to see the look if the screen is smaller then 768px </p>
+            <p>
+                <ul>
+                    <li>
+                        als je goed kijkt, zie je dat om een dropdown te maken, moet je nieuwe 'ul' lijst maken met daarin 'li' elementen
+                    </li>
+                    <li>
+                        als je een dropdown in een dropdown wil steken (dus 2 niveau's) moet je opnieuw 'ul' lijst maken met daarin 'li' elementen
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </main>
+
+</body>
+
+</html>
