@@ -1,10 +1,10 @@
 /* CSS Document voor navigatie / drop down; gelieve enkel kleuren of font-style/font-size aan te passen */
 
 header {
-    background: #212121;
+    background: #41077e;
     font-size: 22px;
     line-height: 32px;
-    color: #ffffff;
+    color: lightpink;
     margin: 0;
     padding: 0;
     word-wrap: break-word !important;
@@ -13,22 +13,22 @@ header {
 header h1 {
     font-size: 60px;
     text-align: center;
-    color: #FFF;
+    color: lightpink;
 }
 
 header h3 {
     font-size: 30px;
     line-height: 34px;
     text-align: center;
-    color: #FFF;
+    color: lightpink;
 }
 
 header h3 a {
-    color: #FFF;
+    color: lightpink;
 }
 
 header a {
-    color: #FFF;
+    color: lightpink;
 }
 
 header h1 {
@@ -53,7 +53,7 @@ header h1 {
 nav {
     margin: 0;
     padding: 0;
-    background-color: #254441;
+    background-color: #620277;
 }
 
 #logo {
@@ -88,14 +88,14 @@ nav ul li {
     margin: 0px;
     display: inline-block;
     float: left;
-    background-color: #254441;
+    background-color: #620277;
 }
 
 /* Styling the links */
 nav a {
     display: block;
     padding: 14px 20px;
-    color: #FFF;
+    color: lightpink;
     font-size: 17px;
     text-decoration: none;
 }
@@ -185,7 +185,7 @@ li>a:only-child:after {
         align-items: center;
         background-color: #254441;
         padding: 14px 20px;
-        color: #FFF;
+        color: lightpink;
         font-size: 17px;
         text-decoration: none;
         border: none;
@@ -225,7 +225,7 @@ li>a:only-child:after {
     nav ul ul a,
     nav ul ul ul a {
         padding: 14px 20px;
-        color: #FFF;
+        color: lightpink;
         font-size: 17px;
     }
 
@@ -239,7 +239,7 @@ li>a:only-child:after {
     nav ul ul {
         float: none;
         position: static;
-        color: #ffffff;
+        color: lightpinkfff;
         /* has to be the same number as the "line-height" of "nav a" */
     }
 
