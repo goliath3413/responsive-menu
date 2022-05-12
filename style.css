@@ -1,5 +1,15 @@
 body {
     margin: 0;
+    /**
+   * Root em units
+   * 
+   * A root unit (rem) unit is relative to the root font size,
+   * wheras an em unit is relative to it's parent.
+   * 
+   * Ex: root font size = 16px
+   *     1.75rem        = 28px 
+   */
+    font-size: 1.75rem;
     padding: 0;
     word-wrap: break-word !important;
 }
