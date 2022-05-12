@@ -180,7 +180,9 @@ li>a:only-child:after {
 
     /* Stylinf the toggle lable */
     .toggle {
-        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         background-color: #254441;
         padding: 14px 20px;
         color: #FFF;

@@ -18,11 +18,18 @@ p {
     text-align: center;
 }
 
-main {
-    width: 800px;
+.fixed-width {
+    width: 768px;
 }
 
 .flex-space-around {
     display: flex;
     justify-content: space-around;
+}
+
+@media all and (max-width : 768px) {
+
+    .fixed-width {
+        padding: 10px;
+    }
 }
